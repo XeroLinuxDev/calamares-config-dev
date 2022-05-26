@@ -2,14 +2,14 @@
 pkgname=calamares-config-dev
 _destname1="/etc"
 pkgver=22.06
-pkgrel=1
+pkgrel=2
 pkgdesc="calamares Config for XeroLinux"
 arch=('any')
-url="https://github.com/XeroLinux-dev"
+url="https://github.com/XeroLinuxDev"
 license=('GPL3')
 makedepends=('git')
 depends=()
-conflicts=('alci-calamares-config' 'alci-calamares-config-pure' 'alci-calamares-config-btrfs')
+conflicts=('calamares-config')
 provides=("${pkgname}")
 options=(!strip !emptydirs)
 source=(${pkgname}::"git+${url}/${pkgname}")
@@ -21,4 +21,5 @@ package() {
 	rm ${srcdir}/${pkgname}/push.sh
 	rm ${srcdir}/${pkgname}/README.md
 	rm ${srcdir}/${pkgname}/PKGBUILD
+	rm ${srcdir}/${pkgname}/LICENSE
 }
