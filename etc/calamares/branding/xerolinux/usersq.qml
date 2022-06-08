@@ -21,8 +21,8 @@ import QtQuick.Window 2.3
 Kirigami.ScrollablePage {
     // You can hard-code a color here, or bind to a Kirigami theme color,
     // or use a color from Calamares branding, or ..
-    readonly property color unfilledFieldColor: "#000000" //Kirigami.Theme.backgroundColor
-    readonly property color positiveFieldColor: "#212121" //Kirigami.Theme.positiveBackgroundColor
+    readonly property color unfilledFieldColor: "#474757" //Kirigami.Theme.backgroundColor
+    readonly property color positiveFieldColor: "#474757" //Kirigami.Theme.positiveBackgroundColor
     readonly property color negativeFieldColor: "#9b414a" //Kirigami.Theme.negativeBackgroundColor
     readonly property color unfilledFieldOutlineColor: "#1F1F1F"
     readonly property color positiveFieldOutlineColor: "#DCFFDC"
@@ -40,7 +40,7 @@ Kirigami.ScrollablePage {
         color: headerTextColor
         font.weight: Font.Medium
         font.pointSize: 12
-        text: qsTr("Pick your user name and credentials to login and perform admin tasks")
+        text: qsTr("!!! User Creation Time !!! <br />Pick your user name and credentials to login and perform admin tasks"
     }
 
     ColumnLayout {
