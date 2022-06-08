@@ -40,7 +40,7 @@ Kirigami.ScrollablePage {
         color: headerTextColor
         font.weight: Font.Medium
         font.pointSize: 12
-        text: qsTr("!!! User Creation Time !!! <br />Pick your user name and credentials to login and perform admin tasks"
+        text: qsTr("!!! User Creation Time !!! <br />Pick your user name and credentials to login and perform admin tasks")
     }
 
     ColumnLayout {
